@@ -95,7 +95,7 @@
                             </div>
                             <div class=item-content>
                                 <h4><a href="catalogue_exposants.php?infrastructure_btp=<?php echo 'infrastructure_btp'; ?>" class=headline-lato>Infrastructure et BTP </a></h4> <span>05 Oct,
-                                    2021 </span> <span>fiec</span>
+                                    2021 </span> <span>fiec </span>
                                 <ul class=clearfix>
                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
                                             class=zoom title=video><i class="fa fa-play"></i></a></li>
