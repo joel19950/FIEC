@@ -43,7 +43,7 @@
             <div class=menu>
                 <div class=container>
                     <div class=row>
-                        <div class=header-top-left> <a href=index.html class=logo> <img src=images/logo.png alt=image>
+                        <div class=header-top-left> <a href=index.php class=logo> <img src=images/logo.png alt=image>
                             </a> </div>
                         <div class=header-top-right>
                             <nav class=navbar>
@@ -54,23 +54,23 @@
                                     <div class=overlay></div>
                                     <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
                                         <ul class="nav navbar-nav menu-bar">
-                                            <li class=dropdown> <a href=index.html class=active>Accueil</a>
+                                            <li class=dropdown> <a href=index.php class=active>Accueil</a>
 
                                             </li>
-                                            <li><a href=aboutus.html>A propos</a></li>
-                                            <li><a href=sermons.html>Catalogue</a></li>
-                                            <li class=dropdown> <a href=event.html>Actualités</a>
+                                            <li><a href=aboutus.php>A propos</a></li>
+                                            <li><a href=sermons.php>Catalogue</a></li>
+                                            <li class=dropdown> <a href=event.php>Actualités</a>
                                                 <ul class=submenu>
-                                                    <li> <a href=event02.html>Covid19</a></li>
+                                                    <li> <a href=event02.php>Covid19</a></li>
                                                 </ul>
                                             </li>
-                                            <li class=dropdown><a href=blog.html>Partenaires</a>
+                                            <li class=dropdown><a href=blog.php>Partenaires</a>
                                                 <ul class=submenu>
-                                                    <li><a href=gallery.html>Devenez partenaire</a></li>
+                                                    <li><a href=gallery.php>Devenez partenaire</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href=contact_us.html>Contacts</a></li>
-                                            <li><a href=store.html>Télécharger</a></li>
+                                            <li><a href=contact_us.php>Contacts</a></li>
+                                            <li><a href=store.php>Télécharger</a></li>
 
                                         </ul>
                                     </div>
@@ -91,14 +91,14 @@
 
 
 
-                            <p><strong> FIEC entendez foire internationale de l’entrepreneuriat Chrétien est une
+                            <p><strong> FIEC entendez foire internationale de l'entrepreneuriat Chrétien est une
                                     activité <br>
-                                    de grande envergure qui vient concrétiser l’un des objectifs de l’association des
+                                    de grande envergure qui vient concrétiser l'un des objectifs de l'association des
                                     <br>
                                     bâtisseurs et entrepreneurs chrétiens pour le développement social, notamment
-                                    <br>celui d’organiser les colloques et les foires chrétiennes.
+                                    <br>celui d'organiser les colloques et les foires chrétiennes.
                                 </strong>
-                            </p> <a href=contact_us.html class="btn red-btn">Nous contactez</a>
+                            </p> <a href=contact_us.php class="btn red-btn">Nous contactez</a>
                         </div>
                     </div>
                 </div>
@@ -135,15 +135,25 @@
                         <div class=content-items> <img src=images/welcome/item.jpg alt=image> </div>
                     </div>
                     <div class=figcaption-content>
-                        <h3>FOIRE INTERNATIONALE DE L'ENTREPRENEURIAT CHRETIEN </h3>
+                        <h4> <strong> FOIRE INTERNATIONALE DE L'ENTREPRENEURIAT CHRETIEN </strong>  </h4>
+                        <p style="text-align: justify;"> <strong>
+                            FIEC entendez foire internationale de l'entrepreneuriat Chrétien est une activité
+                             de grande envergure qui vient concrétiser l'un des objectifs de l'association des
+                              bâtisseurs et entrepreneurs chrétiens pour le développement social, notamment celui 
+                              d'organiser les colloques et les foires chrétiennes. Elle se tiendra pour Douala-Cameroun.
+                               C'est une première, c'est son édition première.
+                        </strong>
+                            
+                        
+                        </p>
                         <p style="text-align: justify;"><strong>
                                 A présent, Au point ou nous sommes parvenus dans
-                                la marche et démarche au sien de l’association des bâtisseurs et entrepreneurs
+                                la marche et démarche au sien de l'association des bâtisseurs et entrepreneurs
                                 chrétiens pour le développement social convier les jeunes engagés pour la cause
                                 de christ à œuvrer pour un témoignage vivant et ce, à perpétuité, dans un esprit
                                 de solidarité entrepreneuriale, ce faisant une priorité. Objectif qui rejoint celui
-                                de l’état camerounais dans son programme vision pour son économie, matérialisé par
-                                l’encouragement de la jeunesse au secteur entrepreneurial (agropastoral surtout).
+                                de l'état camerounais dans son programme vision pour son économie, matérialisé par
+                                l'encouragement de la jeunesse au secteur entrepreneurial (agropastoral surtout).
                             </strong>
                         </p>
 
@@ -151,7 +161,9 @@
                 </div>
             </div>
         </section>
-        <section class=about>
+
+
+        <!-- <section class=about>
             <div class=container>
                 <div class=line-heading>
                     <h3>Qui sommes nous?</h3>
@@ -197,57 +209,18 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <figure class=gallery>
-            <ul class="gallery-wrapper clearfix">
-                <li class=items> <a href=images/gallery/gallery-03.jpg class=zoom> <img src=images/gallery/gallery1.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-01.jpg class=zoom> <img src=images/gallery/gallery2.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-02.jpg class=zoom> <img src=images/gallery/gallery3.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-04.jpg class=zoom> <img src=images/gallery/gallery4.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-05.jpg class=zoom> <img src=images/gallery/gallery5.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-03.jpg class=zoom> <img src=images/gallery/gallery1.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-01.jpg class=zoom> <img src=images/gallery/gallery2.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-02.jpg class=zoom> <img src=images/gallery/gallery3.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-04.jpg class=zoom> <img src=images/gallery/gallery4.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-05.jpg class=zoom> <img src=images/gallery/gallery5.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-03.jpg class=zoom> <img src=images/gallery/gallery1.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-01.jpg class=zoom> <img src=images/gallery/gallery2.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-02.jpg class=zoom> <img src=images/gallery/gallery3.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-04.jpg class=zoom> <img src=images/gallery/gallery4.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery-05.jpg class=zoom> <img src=images/gallery/gallery5.jpg
-                            alt=image> <span class=h-effect> <img src=images/gallery_hover_icon.png class=item-container
-                                alt=image> </span> </a> </li>
-            </ul>
-        </figure>
-        <section class=sermons>
+        </section> -->
+
+
+
+
+
+
+
+
+
+
+        <!-- <section class=sermons>
             <div class=container>
                 <div class=line-heading>
                     <h3>QUOI DE NEUF ?</h3>
@@ -297,7 +270,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
+
         <section class=upcoming-event>
             <div class=container>
                 <div class=line-heading>
@@ -308,53 +284,53 @@
                         <div class=figure>
                             <div class=item-fig>
                                 <div class=item> <i class="fa fa-calendar"></i>
-                                    <h5>29 march, 2021 </h5>
-                                    <h6>london, uk</h6>
+                                    <h5>21 Décembre 2021 </h5>
+                                    <h6>Cameroun, cm</h6>
                                 </div>
                             </div>
                             <div class=item-content>
-                                <h4>Feeling the God inside you</h4>
-                                <p>There are many variations of passages of Lorem Ipsum</p> <a href=#
-                                    class="btn-small trans-purple-btn">Read more</a>
+                                <h4>Sentir le Dieu qui est en vous</h4>
+                                <p>Lutte contre la vie chère</p> <a href=#
+                                    class="btn-small trans-purple-btn">Voir plus</a>
                             </div>
                         </div>
                         <div class=figure>
                             <div class=item-fig>
                                 <div class=item> <i class="fa fa-calendar"></i>
-                                    <h5>29 march, 2021 </h5>
-                                    <h6>london, uk</h6>
+                                    <h5>21 Décembre 2021 </h5>
+                                    <h6>Cameroun, cm</h6>
                                 </div>
                             </div>
                             <div class=item-content>
-                                <h4>Feeling the God inside you</h4>
-                                <p>There are many variations of passages of Lorem Ipsum</p> <a href=#
-                                    class="btn-small trans-purple-btn">Read more</a>
+                                <h4>Sentir le Dieu qui est en vous</h4>
+                                <p>Lutte contre la vie chère</p> <a href=#
+                                    class="btn-small trans-purple-btn">Voir plus</a>
                             </div>
                         </div>
                         <div class=figure>
                             <div class=item-fig>
                                 <div class=item> <i class="fa fa-calendar"></i>
-                                    <h5>29 march, 2021 </h5>
-                                    <h6>london, uk</h6>
+                                    <h5>21 Décembre 2021 </h5>
+                                    <h6>Cameroun, cm</h6>
                                 </div>
                             </div>
                             <div class=item-content>
-                                <h4>Feeling the God inside you</h4>
-                                <p>There are many variations of passages of Lorem Ipsum</p> <a href=#
-                                    class="btn-small trans-purple-btn">Read more</a>
+                                <h4>Sentir le Dieu qui est en vous</h4>
+                                <p>Lutte contre la vie chère</p> <a href=#
+                                    class="btn-small trans-purple-btn">Voir plus</a>
                             </div>
                         </div>
                         <div class=figure>
                             <div class=item-fig>
                                 <div class=item> <i class="fa fa-calendar"></i>
-                                    <h5>29 march, 2021 </h5>
-                                    <h6>london, uk</h6>
+                                    <h5>21 Décembre 2021 </h5>
+                                    <h6>Cameroun, cm</h6>
                                 </div>
                             </div>
                             <div class=item-content>
-                                <h4>Feeling the God inside you</h4>
-                                <p>There are many variations of passages of Lorem Ipsum</p> <a href=#
-                                    class="btn-small trans-purple-btn">Read more</a>
+                                <h4>Sentir le Dieu qui est en vous</h4>
+                                <p>Lutte contre la vie chère</p> <a href=#
+                                    class="btn-small trans-purple-btn">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -369,6 +345,51 @@
                 </div> <a class=prev-btn> <img src=images/left-arrow.jpg alt=image> </a> <a class=next-btn> <img
                         src=images/right_arrow.jpg alt=image> </a>
                 <div class="slider-donation clearfix">
+
+                <div class="figure-wrapper clearfix">
+                        <div class="item-holder clearfix">
+                            <div class=item-fig> <img src=images/content/donation2.jpg alt=image> <a href=#
+                                    class="btn btn-white">Suivre</a> </div>
+                            <div class=item-content>
+                                <!-- <h4>Healthcare, food <br><span>for marginalized children</span></h4> -->
+                                <p>
+                                <ul style="font-size: 17px;">
+
+                                    <li>
+                                        En cette fin d'année, permettre aux ménages même démunis d'accéder aux produits
+                                        divers à des prix défiants toutes concurrences.
+                                    </li>
+                                    <li>
+                                        Lutter contre la vie chère.
+                                    </li>
+                                    <li>
+                                        Mettre en relation les entrepreneurs et fournisseurs de divers secteurs
+                                        d'activités
+                                    </li>
+                                    <li>
+                                        Promouvoir l'esprit solidarité et d'entraide entre chrétiens
+                                    </li>
+                                    <li>
+                                        Promouvoir l'emploi en milieux chrétiens
+                                    </li>
+                                    <li>
+                                        Lutter contre la pauvreté
+                                    </li>
+                                    <li>
+                                        Mettre Jésus-Christ au centre de nos activités
+                                    </li>
+                                </ul>
+                     
+
+
+                                </p> <span>Partage:</span>
+                                <div class=social-wrapper> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
+                                            class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="figure-wrapper clearfix">
                         <div class="item-holder clearfix">
                             <div class=item-fig> <img src=images/content/donation1.jpg alt=image> <a href=#
@@ -379,7 +400,7 @@
                                 <ul style="font-size: 17px;">
 
                                     <li>
-                                        En cette fin d’année, permettre aux ménages même démunis d’accéder aux produits
+                                        En cette fin d'année, permettre aux ménages même démunis d'accéder aux produits
                                         divers à des prix défiants toutes concurrences.
                                     </li>
                                     <li>
@@ -387,13 +408,13 @@
                                     </li>
                                     <li>
                                         Mettre en relation les entrepreneurs et fournisseurs de divers secteurs
-                                        d’activités
+                                        d'activités
                                     </li>
                                     <li>
-                                        Promouvoir l’esprit solidarité et d’entraide entre chrétiens
+                                        Promouvoir l'esprit solidarité et d'entraide entre chrétiens
                                     </li>
                                     <li>
-                                        Promouvoir l’emploi en milieux chrétiens
+                                        Promouvoir l'emploi en milieux chrétiens
                                     </li>
                                     <li>
                                         Lutter contre la pauvreté
@@ -402,11 +423,7 @@
                                         Mettre Jésus-Christ au centre de nos activités
                                     </li>
                                 </ul>
-                                <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. -->
+                          
 
 
                                 </p> <span>Partage:</span>
@@ -416,56 +433,68 @@
                             </div>
                         </div>
                     </div>
-                    <div class="figure-wrapper clearfix">
-                        <div class="item-holder clearfix">
-                            <div class=item-fig> <img src=images/content/donation1.jpg alt=image> <a href=#
-                                    class="btn btn-white">Suivre</a> </div>
-                            <div class=item-content>
-                                <!-- <h4>Healthcare, food <br><span>for marginalized children</span></h4> -->
-                                <p>
-                                <ul style="font-size: 17px;">
-
-                                    <li>
-                                        En cette fin d’année, permettre aux ménages même démunis d’accéder aux produits
-                                        divers à des prix défiants toutes concurrences.
-                                    </li>
-                                    <li>
-                                        Lutter contre la vie chère.
-                                    </li>
-                                    <li>
-                                        Mettre en relation les entrepreneurs et fournisseurs de divers secteurs
-                                        d’activités
-                                    </li>
-                                    <li>
-                                        Promouvoir l’esprit solidarité et d’entraide entre chrétiens
-                                    </li>
-                                    <li>
-                                        Promouvoir l’emploi en milieux chrétiens
-                                    </li>
-                                    <li>
-                                        Lutter contre la pauvreté
-                                    </li>
-                                    <li>
-                                        Mettre Jésus-Christ au centre de nos activités
-                                    </li>
-                                </ul>
-                                <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                            unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                            It has survived not only five centuries, but also the leap into electronic
-                                            typesetting, remaining essentially unchanged. -->
-
-
-                                </p> <span>Partage:</span>
-                                <div class=social-wrapper> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
-                                            class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
+       
+
+
+        <figure class=gallery>
+            <ul class="gallery-wrapper clearfix "> 
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" 
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px"
+                            alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px"
+                            alt=image><span class=h-effect> <img src=images/jesus.jpg class=item-container 
+                                alt=image> </span> </a> </li>
+            </ul>
+        </figure>
+
+
+
+
+
+
         <footer>
             <div class=container>
                 <div class=row>
@@ -474,17 +503,17 @@
                             <h4>Edition 1ère</h4>
                             <p>Foire internationale de l'entrepreneuriat chretien</p>
                             <p> Esplanade de la maison du parti de Bonanjo</p>
-                            <a href=contact_us.html class="btn trans-btn">Contact</a>
+                            <a href=contact_us.php class="btn trans-btn">Contact</a>
                         </div>
                         <div class=pages>
                             <h4>Pages</h4>
                             <ul>
-                                <li><a href=index.html>Accueil</a></li>
-                                <li><a href=aboutus.html>A propos</a></li>
-                                <li><a href=sermons.html>Catalogue</a></li>
-                                <li><a href=event.html>Actualités</a></li>
-                                <li><a href=blog.html>Partenaires</a></li>
-                                <li><a href=contact_us.html>Contact</a></li>
+                                <li><a href=index.php>Accueil</a></li>
+                                <li><a href=aboutus.php>A propos</a></li>
+                                <li><a href=sermons.php>Catalogue</a></li>
+                                <li><a href=event.php>Actualités</a></li>
+                                <li><a href=blog.php>Partenaires</a></li>
+                                <li><a href=contact_us.php>Contact</a></li>
                             </ul>
                         </div>
                     </div>

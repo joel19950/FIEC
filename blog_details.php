@@ -5,7 +5,7 @@
     <meta charset=utf-8>
     <meta name=description>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>cross</title>
+    <title>fiec</title>
     <link rel=stylesheet href=styles/vendor.css>
     <link rel=stylesheet href=styles/main.css>
     <script src=scripts/vendor/modernizr.js></script>
@@ -30,17 +30,18 @@
                         <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
                                     class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i
                                     class="fa fa-behance"></i></a> </div>
-                       
+                        
                     </div>
                 </div>
             </div>
             <div class=menu>
                 <div class=container>
                     <div class=row>
-                        <div class=header-top-left> <a href=index.html class=logo> <img src=images/logo.png alt=image>
-                            </a> </div>
+                        <div class=header-top-left> <a href=index.php class=logo> <img src=images/logo.png
+                                    alt=image-logo> </a> </div>
                         <div class=header-top-right>
                             <nav class=navbar>
+                               
                                 <div class=nav-wrapper>
                                     <div class=navbar-header> <button type=button class=navbar-toggle> <span
                                                 class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
@@ -48,23 +49,23 @@
                                     <div class=overlay></div>
                                     <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
                                         <ul class="nav navbar-nav menu-bar">
-                                            <li class=dropdown> <a href=index.html>Accueil</a>
+                                            <li class=dropdown> <a href=index.php>Accueil</a>
                                               
                                             </li>
-                                            <li><a href=aboutus.html >A propos</a></li>
-                                            <li><a href=sermons.html>Catalogue</a></li>
-                                            <li class=dropdown> <a href=event.html>Actualités</a>
+                                            <li><a href=aboutus.php >A propos</a></li>
+                                            <li><a href=sermons.php>Catalogue</a></li>
+                                            <li class=dropdown> <a href=event.php>Actualités</a>
                                             <ul class=submenu> 
-                                                <li> <a href=event02.html>Covid19</a></li>
+                                                <li> <a href=event02.php>Covid19</a></li>
                                             </ul>
                                             </li>
-                                            <li class=dropdown><a href=blog.html class=active>Partenaires</a>
+                                            <li class=dropdown><a href=blog.php>Partenaires</a>
                                                 <ul class=submenu>
-                                                    <li><a href=gallery.html>Devenez partenaire</a></li>
+                                                    <li><a href=gallery.php>Devenez partenaire</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href=contact_us.html>Contacts</a></li>
-                                            <li><a href=store.html>Télécharger</a></li>
+                                            <li><a href=contact_us.php>Contacts</a></li>
+                                            <li><a href=store.php>Télécharger</a></li>
                                            
                                         </ul>
                                     </div>
@@ -84,77 +85,56 @@
             <div class=container>
                 <div class=row>
                     <div class="wrapper clearfix">
-                        <aside class=content>
-                            <div class="item-holder clearfix">
-                                <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.</p> <a href=blog_details.html
-                                        class="btn-small btn-grey">Read more</a>
-                                    <ul class=wrapper-comment>
-                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
-                                        </li>
-                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
-                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
-                                                    webdesign</span></a> </li>
-                                    </ul>
+                        <aside class="content blog-details">
+                            <div class=blog-image> <img src=images/blog-details.jpg alt=image> </div>
+                            <div class=about-god>
+                                <h4 class=headline-lato>Love the God. Because he loves us</h4>
+                                <p class=paragraph_opensans>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante
+                                    luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac
+                                    viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
+                                    fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor
+                                    sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec
+                                    facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+                                <div class=clearfix> <i class="fa fa-quote-left"></i>
+                                    <h5>Every child is an artist, the problem is staying an artist when you grow up.
+                                    </h5>
                                 </div>
+                                <p class=paragraph_opensans>Lorem ipum dolor sit amet, consectetur adipiscing elit.
+                                    Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante
+                                    luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac
+                                    viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
+                                    fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor
+                                    sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec
+                                    facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                             </div>
-                            <div class="item-holder clearfix">
-                                <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.</p> <a href=blog_details.html
-                                        class="btn-small btn-grey">Read more</a>
-                                    <ul class=wrapper-comment>
-                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
-                                        </li>
-                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
-                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
-                                                    webdesign</span></a> </li>
-                                    </ul>
-                                </div>
+                            <div class="social-share clearfix">
+                                <div class=share-cont> <i class="fa fa-share-alt"></i> <span>share</span> </div>
+                                <div class="social-wraps clearfix"> <a><i class="fa fa-dribbble"></i></a> <a><i
+                                            class="fa fa-facebook"></i></a> <a><i class="fa fa-twitter"></i></a> <a><i
+                                            class="fa fa-behance"></i></a> <a><i class="fa fa-vine"></i></a> </div>
+                                <div> </div>
                             </div>
-                            <div class="item-holder clearfix">
-                                <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.</p> <a href=blog_details.html
-                                        class="btn-small btn-grey">Read more</a>
-                                    <ul class=wrapper-comment>
-                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
-                                        </li>
-                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
-                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
-                                                    webdesign</span></a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item-holder clearfix">
-                                <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.</p> <a href=blog_details.html
-                                        class="btn-small btn-grey">Read more</a>
-                                    <ul class=wrapper-comment>
-                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
-                                        </li>
-                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
-                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
-                                                    webdesign</span></a> </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <!-- <div class="contact-form clearfix">
+                                <h6>leave a comment</h6>
+                                <form>
+                                    <div class=form-group> <input type=email class="form-control text"
+                                            placeholder="your name"> </div>
+                                    <div class=form-group> <input type=email class="form-control text"
+                                            id=exampleInputEmail1 placeholder="Your E-mail"> </div>
+                                    <div class=form-group> <input type=email class="form-control text"
+                                            placeholder="your name"> </div>
+                                    <div class=form-group1> <textarea class="form-control texta" id=comment
+                                            placeholder=Message></textarea> </div> <button class=send>post
+                                        comment</button>
+                                </form>
+                            </div> -->
                         </aside>
                         <aside class=sidebar>
-                            <div class=item-menu>
-                                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=#
-                                        class=search-btn><i class="fa fa-search"></i></a> </div>
-                            </div>
                             <div class=item-menu>
                                 <div class=item-menu-wrap>
                                     <h5>Event catagories</h5>
@@ -205,7 +185,7 @@
                                         <li><a><img src=images/photo/jesus2.jpg alt=image></a></li>
                                         <li><a><img src=images/photo/jesus3.jpg alt=image></a></li>
                                         <li><a><img src=images/photo/jesus.jpg alt=image></a></li>
-                                        <li><a><img src=images/photo/footer-img2.jpg alt=image></a></li>
+                                        <li><a><img src=images/footer-img2.jpg alt=image></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -222,17 +202,17 @@
                             <h4>Edition 1ère</h4>
                             <p>Foire internationale de l'entrepreneuriat chretien</p> 
                             <p> Esplanade de la maison du parti de Bonanjo</p>
-                            <a href=contact_us.html class="btn trans-btn">Contact</a>
+                            <a href=contact_us.php class="btn trans-btn">Contact</a>
                         </div>
                         <div class=pages>
                             <h4>Pages</h4>
                             <ul>
-                                <li><a href=index.html>Accueil</a></li>
-                                <li><a href=aboutus.html>A propos</a></li>
-                                <li><a href=sermons.html>Catalogue</a></li>
-                                <li><a href=event.html>Actualités</a></li>
-                                <li><a href=blog.html>Partenaires</a></li>
-                                <li><a href=contact_us.html>Contact</a></li>
+                                <li><a href=index.php>Accueil</a></li>
+                                <li><a href=aboutus.php>A propos</a></li>
+                                <li><a href=sermons.php>Catalogue</a></li>
+                                <li><a href=event.php>Actualités</a></li>
+                                <li><a href=blog.php>Partenaires</a></li>
+                                <li><a href=contact_us.php>Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -247,7 +227,7 @@
                             <div class="figure row">
                                 <div> <img src=images/footer-img1.jpg alt=image> </div>
                                 <div class=figcaption>
-                                    <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
+                                    <h5 class=heading><a>Jesus is the Ture Vine</a></h5>
                                     <h5 class=date>April 10, 2021 </h5>
                                     <p>Lorem Ipsum is simply dummy</p>
                                 </div>
@@ -255,7 +235,7 @@
                             <div class="figure row">
                                 <div> <img src=images/footer-img2.jpg height=73 width=83> </div>
                                 <div class=figcaption>
-                                    <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
+                                    <h5 class=heading><a>Jesus is the Ture Vine</a></h5>
                                     <h5 class=date>April 10, 2021 </h5>
                                     <p>Lorem Ipsum is simply dummy</p>
                                 </div>
@@ -263,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <h6>&copy; 2021  FIEC Powered by <a href=fiec.com><span>fiec.com</span></a></h6>
+                <h6>&copy;2021 FIEC Powered by <a href=fiec.com><span>fiec.com</span></a></h6>
             </div>
         </footer>
     </div>

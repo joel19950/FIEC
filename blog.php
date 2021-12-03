@@ -5,7 +5,7 @@
     <meta charset=utf-8>
     <meta name=description>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>cross</title>
+    <title>fiec</title>
     <link rel=stylesheet href=styles/vendor.css>
     <link rel=stylesheet href=styles/main.css>
     <script src=scripts/vendor/modernizr.js></script>
@@ -30,15 +30,15 @@
                         <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
                                     class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i
                                     class="fa fa-behance"></i></a> </div>
-                        
+                       
                     </div>
                 </div>
             </div>
             <div class=menu>
                 <div class=container>
                     <div class=row>
-                        <div class=header-top-left> <a href=index.html class=logo> <img src=images/logo.png
-                                    alt=logo-image> </a> </div>
+                        <div class=header-top-left> <a href=index.php class=logo> <img src=images/logo.png alt=image>
+                            </a> </div>
                         <div class=header-top-right>
                             <nav class=navbar>
                                 <div class=nav-wrapper>
@@ -48,23 +48,23 @@
                                     <div class=overlay></div>
                                     <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
                                         <ul class="nav navbar-nav menu-bar">
-                                            <li class=dropdown> <a href=index.html>Accueil</a>
+                                            <li class=dropdown> <a href=index.php>Accueil</a>
                                               
                                             </li>
-                                            <li><a href=aboutus.html class=active>A propos</a></li>
-                                            <li><a href=sermons.html>Catalogue</a></li>
-                                            <li class=dropdown> <a href=event.html>Actualités</a>
+                                            <li><a href=aboutus.php >A propos</a></li>
+                                            <li><a href=sermons.php>Catalogue</a></li>
+                                            <li class=dropdown> <a href=event.php>Actualités</a>
                                             <ul class=submenu> 
-                                                <li> <a href=event02.html>Covid19</a></li>
+                                                <li> <a href=event02.php>Covid19</a></li>
                                             </ul>
                                             </li>
-                                            <li class=dropdown><a href=blog.html>Partenaires</a>
+                                            <li class=dropdown><a href=blog.php class=active>Partenaires</a>
                                                 <ul class=submenu>
-                                                    <li><a href=gallery.html>Devenez partenaire</a></li>
+                                                    <li><a href=gallery.php>Devenez partenaire</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href=contact_us.html>Contacts</a></li>
-                                            <li><a href=store.html>Télécharger</a></li>
+                                            <li><a href=contact_us.php>Contacts</a></li>
+                                            <li><a href=store.php>Télécharger</a></li>
                                            
                                         </ul>
                                     </div>
@@ -76,7 +76,7 @@
             </div>
             <div class=button-wrapper>
                 <div class=container>
-                    <div class=row> <a href=# class=btn-content>online shop</a> </div>
+                    <div class=row> <a href=# class=btn-content>Nos partenaires</a> </div>
                 </div>
             </div>
         </header>
@@ -84,101 +84,77 @@
             <div class=container>
                 <div class=row>
                     <div class="wrapper clearfix">
-                        <aside class="content contact-wrap">
-                            <div class="store-details-wrap clearfix">
-                                <div class="success-buy-wrapper clearfix">
-                                    <div class="successB_cont clearfix">
-                                        <div class="successB_hldr clearfix"> <i class="fa fa-check"></i>
-                                            <h6>Your item was successfully added</h6>
-                                        </div>
-                                    </div>
-                                    <p class=paragraph_opensans>Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry.</p>
+                        <aside class=content>
+                            <div class="item-holder clearfix">
+                                <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                                <div class=item-container>
+                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p> <a href=blog_details.php
+                                        class="btn-small btn-grey">Read more</a>
+                                    <ul class=wrapper-comment>
+                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
+                                        </li>
+                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
+                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
+                                                    webdesign</span></a> </li>
+                                    </ul>
                                 </div>
-                                <div class="fig-shop clearfix">
-                                    <aside class=fig-shop-img> <img src=images/content/book.jpg alt=image> </aside>
-                                    <aside class=fig-shop-content>
-                                        <h4 class=headline-lato>Bundle of books</h4>
-                                        <h5>$262</h5>
-                                        <p class=paragraph_opensans>Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                            text ever since the 1500s, when an unknown printer took a galley of type and
-                                            scrambled it to make a type specimen book.</p>
-                                        <div class="avilable-wrap clearfix">
-                                            <div class=avl-wrp> <span>availability:</span> <span>available</span> </div>
-                                            <div class=avl-wrp> <span>quality:</span> <i class="fa fa-angle-left"></i>
-                                                <span>5</span> <i class="fa fa-angle-right"></i> </div> <a
-                                                class="btn-small btn-red">Add to cart</a>
-                                        </div>
-                                    </aside>
+                            </div>
+                            <div class="item-holder clearfix">
+                                <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                                <div class=item-container>
+                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p> <a href=blog_details.php
+                                        class="btn-small btn-grey">Read more</a>
+                                    <ul class=wrapper-comment>
+                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
+                                        </li>
+                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
+                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
+                                                    webdesign</span></a> </li>
+                                    </ul>
                                 </div>
-                                <div class="tab-shop clearfix">
-                                    <div role=tabpanel>
-                                        <ul class="nav nav-tabs" role=tablist>
-                                            <li role=presentation class=active><a href=#Accueil aria-controls=Accueil role=tab
-                                                    data-toggle=tab>Description</a></li>
-                                            <li role=presentation><a href=#profile aria-controls=profile role=tab
-                                                    data-toggle=tab>Additional imformation</a></li>
-                                            <li role=presentation><a href=#messages aria-controls=messages role=tab
-                                                    data-toggle=tab>review(0)</a></li>
-                                        </ul>
-                                        <div class=tab-content>
-                                            <div role=tabpanel class="tab-pane active" id=Accueil>Lorem Ipsum is simply
-                                                dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                                been the industry's standard dummy text ever since the 1500s, when an
-                                                unknown printer took a galley of type and scrambled it to make a type
-                                                specimen book. It has survived not only five centuries.</div>
-                                            <div role=tabpanel class=tab-pane id=profile>Lorem Ipsum is simply dummy
-                                                text of the printing and typesetting industry. </div>
-                                            <div role=tabpanel class=tab-pane id=messages>Lorem Ipsum has been the
-                                                industry's standard dummy text ever since the 1500s, when an unknown
-                                                printer took a galley of type and scrambled it to make a type specimen
-                                                book. It has survived not only five centuries.</div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="item-holder clearfix">
+                                <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                                <div class=item-container>
+                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p> <a href=blog_details.php
+                                        class="btn-small btn-grey">Read more</a>
+                                    <ul class=wrapper-comment>
+                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
+                                        </li>
+                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
+                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
+                                                    webdesign</span></a> </li>
+                                    </ul>
                                 </div>
-                                <div class="shop-related clearfix">
-                                    <h6>related products</h6>
-                                    <div class=figure>
-                                        <div class=item>
-                                            <div class=item-img> <img src=images/content/candle.jpg alt=image>
-                                                <div class=item-cart> <a href=store_details.html>Add to cart</a> </div>
-                                            </div>
-                                            <div class=item-content>
-                                                <div class="item-header clearfix"> <span
-                                                        class=headline-lato>candles</span> <span>$100</span> </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=figure>
-                                        <div class=item>
-                                            <div class=item-img> <img src=images/content/book.jpg alt=image>
-                                                <div class=item-cart> <a href=store_details.html>Add to cart</a> </div>
-                                            </div>
-                                            <div class=item-content>
-                                                <div class="item-header clearfix"> <span
-                                                        class=headline-lato>candles</span> <span>$100</span> </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=figure>
-                                        <div class=item>
-                                            <div class=item-img> <img src=images/content/candle.jpg alt=image>
-                                                <div class=item-cart> <a href=store_details.html>Add to cart</a> </div>
-                                            </div>
-                                            <div class=item-content>
-                                                <div class="item-header clearfix"> <span
-                                                        class=headline-lato>candles</span> <span>$100</span> </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="item-holder clearfix">
+                                <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                                <div class=item-container>
+                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p> <a href=blog_details.php
+                                        class="btn-small btn-grey">Read more</a>
+                                    <ul class=wrapper-comment>
+                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
+                                        </li>
+                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
+                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
+                                                    webdesign</span></a> </li>
+                                    </ul>
                                 </div>
                             </div>
                         </aside>
                         <aside class=sidebar>
+                            <div class=item-menu>
+                                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=#
+                                        class=search-btn><i class="fa fa-search"></i></a> </div>
+                            </div>
                             <div class=item-menu>
                                 <div class=item-menu-wrap>
                                     <h5>Event catagories</h5>
@@ -246,17 +222,17 @@
                             <h4>Edition 1ère</h4>
                             <p>Foire internationale de l'entrepreneuriat chretien</p> 
                             <p> Esplanade de la maison du parti de Bonanjo</p>
-                            <a href=contact_us.html class="btn trans-btn">Contact</a>
+                            <a href=contact_us.php class="btn trans-btn">Contact</a>
                         </div>
                         <div class=pages>
                             <h4>Pages</h4>
                             <ul>
-                                <li><a href=index.html>Accueil</a></li>
-                                <li><a href=aboutus.html>A propos</a></li>
-                                <li><a href=sermons.html>Catalogue</a></li>
-                                <li><a href=event.html>Actualités</a></li>
-                                <li><a href=blog.html>Partenaires</a></li>
-                                <li><a href=contact_us.html>Contact</a></li>
+                                <li><a href=index.php>Accueil</a></li>
+                                <li><a href=aboutus.php>A propos</a></li>
+                                <li><a href=sermons.php>Catalogue</a></li>
+                                <li><a href=event.php>Actualités</a></li>
+                                <li><a href=blog.php>Partenaires</a></li>
+                                <li><a href=contact_us.php>Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -279,7 +255,7 @@
                             <div class="figure row">
                                 <div> <img src=images/footer-img2.jpg height=73 width=83> </div>
                                 <div class=figcaption>
-                                    <h5 class=heading><a>jesus is the Ture Vine</a></h5>
+                                    <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
                                     <h5 class=date>April 10, 2021 </h5>
                                     <p>Lorem Ipsum is simply dummy</p>
                                 </div>

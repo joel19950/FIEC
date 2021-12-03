@@ -5,7 +5,7 @@
     <meta charset=utf-8>
     <meta name=description>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>cross</title>
+    <title>fiec</title>
     <link rel=stylesheet href=styles/vendor.css>
     <link rel=stylesheet href=styles/main.css>
     <script src=scripts/vendor/modernizr.js></script>
@@ -25,7 +25,7 @@
     <div class="wrapper-body event-pg">
         <div class=overlay-event>
             <div class="modal-event clearfix">
-                <h1 class=logo> <a href=index.html> <img src=images/logo.png alt=image-logo> </a> <a
+                <h1 class=logo> <a href=index.php> <img src=images/logo.png alt=image-logo> </a> <a
                         class=close-event><i class="fa fa-close"></i></a> </h1>
                 <h3>book your ticket</h3>
                 <p class=paragraph_opensans>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -57,7 +57,7 @@
             <div class=menu>
                 <div class=container>
                     <div class=row>
-                        <div class=header-top-left> <a href=index.html class=logo> <img src=images/logo.png
+                        <div class=header-top-left> <a href=index.php class=logo> <img src=images/logo.png
                                     alt=image-logo> </a> </div>
                         <div class=header-top-right>
                             <nav class=navbar>
@@ -68,23 +68,23 @@
                                     <div class=overlay></div>
                                     <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
                                         <ul class="nav navbar-nav menu-bar">
-                                            <li class=dropdown> <a href=index.html>Accueil</a>
+                                            <li class=dropdown> <a href=index.php>Accueil</a>
                                               
                                             </li>
-                                            <li><a href=aboutus.html >A propos</a></li>
-                                            <li><a href=sermons.html>Catalogue</a></li>
-                                            <li class=dropdown> <a href=event.html class=active>Actualités</a>
+                                            <li><a href=aboutus.php >A propos</a></li>
+                                            <li><a href=sermons.php>Catalogue</a></li>
+                                            <li class=dropdown> <a href=event.php class=active>Actualités</a>
                                             <ul class=submenu> 
-                                                <li> <a href=event02.html>Covid19</a></li>
+                                                <li> <a href=event02.php>Covid19</a></li>
                                             </ul>
                                             </li>
-                                            <li class=dropdown><a href=blog.html>Partenaires</a>
+                                            <li class=dropdown><a href=blog.php>Partenaires</a>
                                                 <ul class=submenu>
-                                                    <li><a href=gallery.html>Devenez partenaire</a></li>
+                                                    <li><a href=gallery.php>Devenez partenaire</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href=contact_us.html>Contacts</a></li>
-                                            <li><a href=store.html>Télécharger</a></li>
+                                            <li><a href=contact_us.php>Contacts</a></li>
+                                            <li><a href=store.php>Télécharger</a></li>
                                            
                                         </ul>
                                     </div>
@@ -113,7 +113,7 @@
                     <div class="wrapper isp-wrap">
                         <div class=clearfix id=list-item>
                             <div class="figure Fests">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP1.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
                             <div class="figure Fests">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP2.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <div class="figure Celebrations">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP3.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -173,7 +173,7 @@
                                 </div>
                             </div>
                             <div class="figure Meetings">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP1.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -193,7 +193,7 @@
                                 </div>
                             </div>
                             <div class="figure Prayers">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP2.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -213,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="figure Celebrations">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP3.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -233,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="figure Meetings">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP1.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -253,7 +253,7 @@
                                 </div>
                             </div>
                             <div class="figure Prayers">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP2.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -273,7 +273,7 @@
                                 </div>
                             </div>
                             <div class="figure Prayers">
-                                <div class="item clearfix"> <a class=item-img href=event_details.html> <img
+                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img
                                             src=images/gallery/galleryP3.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Water Baptism</h4>
@@ -314,17 +314,17 @@
                             <h4>Edition 1ère</h4>
                             <p>Foire internationale de l'entrepreneuriat chretien</p> 
                             <p> Esplanade de la maison du parti de Bonanjo</p>
-                            <a href=contact_us.html class="btn trans-btn">Contact</a>
+                            <a href=contact_us.php class="btn trans-btn">Contact</a>
                         </div>
                         <div class=pages>
                             <h4>Pages</h4>
                             <ul>
-                                <li><a href=index.html>Accueil</a></li>
-                                <li><a href=aboutus.html>A propos</a></li>
-                                <li><a href=sermons.html>Catalogue</a></li>
-                                <li><a href=event.html>Actualités</a></li>
-                                <li><a href=blog.html>Partenaires</a></li>
-                                <li><a href=contact_us.html>Contact</a></li>
+                                <li><a href=index.php>Accueil</a></li>
+                                <li><a href=aboutus.php>A propos</a></li>
+                                <li><a href=sermons.php>Catalogue</a></li>
+                                <li><a href=event.php>Actualités</a></li>
+                                <li><a href=blog.php>Partenaires</a></li>
+                                <li><a href=contact_us.php>Contact</a></li>
                             </ul>
                         </div>
                     </div>
