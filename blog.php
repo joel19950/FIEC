@@ -83,8 +83,6 @@
                         <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
                         <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
                         <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery6.png class=zoom> <img src=images/gallery/gallery6.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery7.png class=zoom> <img src=images/gallery/gallery7.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg 7lass=item-container alt=image> </span> </a> </li>
                         <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
                         <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
                         <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
@@ -116,20 +114,40 @@
                     <div class="wrapper clearfix">
                         <aside class=content>
                             <div class="item-holder clearfix">
-                                <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                                <div class=item-image> <img src=images/content/afric.jpg alt=image> </div>
                                 <div class=item-container>
-                                    <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard.</p>
+                                    <h4><a href=# class=headline-lato>Comité d'Organisation</a></h4>
+
+                                    <p style="font-size: 17px;">
+
+                                        Le comité d'organisation 2021 est composé de spécialistes pluridisciplinaires, dont:
+                                        <br /> <i class="fa fa-arrow-right"></i></i> &nbsp;
+                                        Des spécialiste en marketing
+                                        <br /> <i class="fa fa-arrow-right"></i></i>&nbsp;
+                                        Des juristes
+                                        <br /> <i class="fa fa-arrow-right"></i></i>&nbsp;
+                                        Des communicateurs et journalistes
+                                        <br /> <i class="fa fa-arrow-right"></i></i> &nbsp;
+                                        Des Décorateurs professionnels
+                                        <br /> <i class="fa fa-arrow-right"></i></i> &nbsp;
+                                        Des médecins
+                                        <br /> <i class="fa fa-arrow-right"></i></i> &nbsp;
+                                        Des ingénieurs agronomes
+                                        <br /> <i class="fa fa-arrow-right"></i></i> &nbsp;
+                                        Des entrepreneurs de haut vol
+
+
+
+
+                                    </p>
+                                    <!-- 
                                     <ul class=wrapper-comment>
                                         <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
                                         </li>
                                         <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
                                         <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
                                                     webdesign</span></a> </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
 

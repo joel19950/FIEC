@@ -126,7 +126,7 @@
                         <p class=paragraph_opensans> Présentation l'association des bâtisseurs et entrepreneurs chrétiens pour le développement social</p>
 
                         <div>
-                            <div class=figure>
+                             <div class=figure>
                                 <div class=fig> <img src=images/content/staff1.jpg alt=image> </div>
                                 <div class=figcaption>
                                     <div class="header clearfix">
@@ -151,7 +151,7 @@
                                     <p class=paragraph_opensans>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Nulla convallis</p>
                                 </div>
-                            </div>
+                            </div> 
                             <div class=figure>
                                 <div class=fig> <img src=images/content/staff3.jpg alt=image> </div>
                                 <div class=figcaption>

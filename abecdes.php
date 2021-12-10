@@ -116,11 +116,7 @@
                                     <i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; Rechercher les bailleurs de fonds pour le financement des projets de jeunes chrétiens, notamment les projets d'agriculture et d'élevage, <br />
                                     <i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; Créer une plateforme d'échange et/ou de coaching entre les bailleurs de fonds et les personnes à succès recherchés par l'association et les membres de ladite association, <br />
                                     <i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; Organiser les colloques et les foires chrétiennes, <br />
-
-
-
                                 </p>
-
                                 <p class=paragraph_opensans style="text-align: justify;">
                                     C'est un réel plaisir pour l'association de pérenniser au quotidien
                                     sa vision et militer pour l'atteinte des objectifs qui sont seins.
