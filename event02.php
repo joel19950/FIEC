@@ -27,10 +27,8 @@
       <div class=header-top>
         <div class=container>
           <div class=row>
-            <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
-                  class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i
-                  class="fa fa-behance"></i></a> </div>
-           
+            <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i class="fa fa-behance"></i></a> </div>
+
           </div>
         </div>
       </div>
@@ -41,34 +39,33 @@
             <div class=header-top-right>
               <nav class=navbar>
                 <div class=nav-wrapper>
-                    <div class=navbar-header> <button type=button class=navbar-toggle> <span
-                                class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
-                            <span class=icon-bar></span> <span class=icon-bar></span> </button> </div>
-                    <div class=overlay></div>
-                    <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
-                        <ul class="nav navbar-nav menu-bar">
-                            <li class=dropdown> <a href=index.php>Accueil</a>
-                              
-                            </li>
-                            <li><a href=aboutus.php class=active>A propos</a></li>
-                            <li><a href=sermons.php>Catalogue</a></li>
-                            <li class=dropdown> <a href=event.php>Actualités</a>
-                            <ul class=submenu> 
-                                <li> <a href=event02.php class=active>Covid19</a></li>
-                            </ul>
-                            </li>
-                            <li class=dropdown><a href=blog.php>Partenaires</a>
-                              <ul class=submenu>
-                                  <li><a href=gallery.php>Devenez partenaire</a></li>
-                              </ul>
-                          </li>
-                            <li><a href=contact_us.php>Contacts</a></li>
-                            <li><a href=store.php>Télécharger</a></li>
-                           
+                  <div class=navbar-header> <button type=button class=navbar-toggle> <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
+                      <span class=icon-bar></span> <span class=icon-bar></span> </button> </div>
+                  <div class=overlay></div>
+                  <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
+                    <ul class="nav navbar-nav menu-bar">
+                      <li class=dropdown> <a href=index.php>Accueil</a>
+
+                      </li>
+                      <li><a href=aboutus.php class=active>A propos</a></li>
+                      <li><a href=sermons.php>Catalogue</a></li>
+                      <li class=dropdown> <a href=gallery.php>Actualités</a>
+                        <ul class=submenu>
+                          <li> <a href=event02.php class=active>Covid19</a></li>
                         </ul>
-                    </div>
+                      </li>
+                      <li class=dropdown><a href=blog.php>Partenaires</a>
+                        <ul class=submenu>
+                          <li><a href=event.php>Devenez partenaire</a></li>
+                        </ul>
+                      </li>
+                      <li><a href=contact_us.php>Contact</a></li>
+                      <!-- <li><a href=store.php>Télécharger</a></li> -->
+
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>
             </div>
           </div>
         </div>
@@ -87,10 +84,8 @@
               <div class=eventFinder>
                 <form class="eventForm clearfix">
                   <div class=form-group> <input type=text class=form-control placeholder="Event Name"> </div>
-                  <div class="form-group evtdate"> <input type=text class=form-control onfocus="(this.type='date')"
-                      placeholder=Date name=date id=date> </div>
-                  <div class="form-group location"> <input type=text class=form-control placeholder=Location
-                      name=location id=location> </div>
+                  <div class="form-group evtdate"> <input type=text class=form-control onfocus="(this.type='date')" placeholder=Date name=date id=date> </div>
+                  <div class="form-group location"> <input type=text class=form-control placeholder=Location name=location id=location> </div>
                   <div class=form-group-btn> <button type=submit class="btn btn-default">search</button> </div>
                 </form>
               </div>
@@ -112,7 +107,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -126,7 +121,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -140,7 +135,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -154,7 +149,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -170,7 +165,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -184,7 +179,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -198,7 +193,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -212,7 +207,7 @@
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard.</p>
                           <ul class="wrapper-comment clearfix">
-                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00 am </span></a>
+                            <li> <a href=#><i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00 am </span></a>
                             </li>
                             <li> <a href=#><i class="fa fa-map-marker"></i> <span> State Route H, Saint Louis, MO, USA
                                 </span></a> </li>
@@ -309,14 +304,13 @@
                     <div class=map-container id=map-wrapper> </div>
                     <div class="event_sorting clearfix">
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP1.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP1.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -326,14 +320,13 @@
                         </div>
                       </div>
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP2.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP2.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -343,14 +336,13 @@
                         </div>
                       </div>
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP3.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP3.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -366,24 +358,23 @@
             </aside>
             <aside class=sidebar>
               <div class=item-menu>
-                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=#
-                    class=search-btn><i class="fa fa-search"></i></a> </div>
+                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=# class=search-btn><i class="fa fa-search"></i></a> </div>
               </div>
               <div class=item-menu>
                 <div class=item-menu-wrap>
-                  <h5>Event catagories</h5>
+                  <h5>Evénements</h5>
                   <ul class=catagory>
-                    <li><a>children</a></li>
-                    <li><a>classes</a></li>
-                    <li><a>community</a></li>
-                    <li><a>health</a></li>
-                    <li><a>more</a></li>
+                    <li><a>Enfants</a></li>
+                    <li><a>Classes</a></li>
+                    <li><a>Communauté</a></li>
+                    <li><a>Santé</a></li>
+                    <li><a>Plus</a></li>
                   </ul>
                 </div>
               </div>
               <div class=item-menu>
                 <div class=item-menu-wrap>
-                  <h5>Past event</h5>
+                  <h5>Evénement passé</h5>
                   <div class="item-wrap clearfix">
                     <div class=item-fig> <img src=images/footer-img1.jpg alt=image> </div>
                     <div class=item-content>
@@ -443,42 +434,51 @@
           <div class="row left">
             <div class=why>
               <h4>Edition 1ère</h4>
-              <p>Foire internationale de l'entrepreneuriat chretien</p> 
+              <p>Foire internationale de l'entrepreneuriat chretien</p>
               <p> Esplanade de la maison du parti de Bonanjo</p>
               <a href=contact_us.php class="btn trans-btn">Contact</a>
-          </div>
+            </div>
             <div class=pages>
               <h4>Pages</h4>
               <ul>
-                  <li><a href=index.php>Accueil</a></li>
-                  <li><a href=aboutus.php>A propos</a></li>
-                  <li><a href=sermons.php>Catalogue</a></li>
-                  <li><a href=event.php>Actualités</a></li>
-                  <li><a href=blog.php>Partenaires</a></li>
-                  <li><a href=contact_us.php>Contact</a></li>
+                <li><a href=index.php>Accueil</a></li>
+                <li><a href=aboutus.php>A propos</a></li>
+                <li><a href=sermons.php>Catalogue</a></li>
+                <li><a href=event.php>Actualités</a></li>
+                <li><a href=blog.php>Partenaires</a></li>
+                <li><a href=contact_us.php>Contact</a></li>
               </ul>
-          </div>
+            </div>
           </div>
           <div class="row right">
             <div class=contact>
-              <h4>Contacts</h4>
+              <h4>Contact</h4>
               <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
               <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
             </div>
             <div class=recent>
-              <h4>Recent Catalogue</h4>
-              <div class="figure row">
-                <div> <img src=images/footer-img1.jpg alt=image> </div>
-                <div class=figcaption>
-                  <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
-                  <h5 class=date>April 10, 2021 </h5>
-                  <p>Lorem Ipsum is simply dummy</p>
-                </div>
-              </div>
+            <h4>
+                                ABECDES
+                            </h4>
+                            <div class="figure row">
+                                <div> <a href="abecdes.php">
+                                        <img src=images/logoassociation.png alt=image>
+
+                                    </a> </div>
+                                <div class=figcaption>
+
+                                    <p>
+                                        <a href="abecdes.php">
+                                            <strong> Association des Batisseurs <br> et Entrepreneurs Chretiens pour le Dévéloppement <br> Sociale</strong>
+                                        </a>
+
+                                    </p>
+                                </div>
+                            </div>
               <div class="figure row">
                 <div> <img src=images/footer-img2.jpg height=73 width=83> </div>
                 <div class=figcaption>
-                  <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
+                  <h5 class=heading><a href=#>Jésus est la vigne pure</a></h5>
                   <h5 class=date>April 10, 2021 </h5>
                   <p>Lorem Ipsum is simply dummy</p>
                 </div>
@@ -486,7 +486,7 @@
             </div>
           </div>
         </div>
-        <h6>&copy; 2021  FIEC Powered by <a href=fiec.com><span>fiec.com</span></a></h6>
+        <h6>&copy; CopyRight 2021 FIEC Site <a href=www.fiec.cm><span>www.fiec.cm</span></a></h6>
       </div>
     </footer>
   </div>
@@ -496,6 +496,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script>
     var map;
+
     function initialize() {
       var mapOptions = {
         zoom: 12,
@@ -503,18 +504,30 @@
         center: new google.maps.LatLng(37.4538889, -122.1811111),
         panControl: false,
         zoomControl: false,
-        styles: [
-          { 'stylers': [{ 'hue': '#dd0d0d' }, { saturation: -100 }] },
+        styles: [{
+            'stylers': [{
+              'hue': '#dd0d0d'
+            }, {
+              saturation: -100
+            }]
+          },
           {
             'featureType': 'road.arterial',
             'elementType': 'labels',
-            'stylers': [{ 'visibility': 'off' }]
+            'stylers': [{
+              'visibility': 'off'
+            }]
           },
           {
             'featureType': 'poi.business',
             'elementType': 'geometry',
-            'stylers': [{ 'lightness': 100 },
-            { 'visibility': 'simplified' }]
+            'stylers': [{
+                'lightness': 100
+              },
+              {
+                'visibility': 'simplified'
+              }
+            ]
           }
         ]
       };
@@ -532,7 +545,7 @@
 
 
       '</div>' +
-        '</div>';
+      '</div>';
 
       map = new google.maps.Map(document.getElementById('map-wrapper'), mapOptions);
       var image = '../images/mapIcon.png';
@@ -547,7 +560,7 @@
         content: contentString
       });
 
-      google.maps.event.addListener(beachMarker, 'click', function () {
+      google.maps.event.addListener(beachMarker, 'click', function() {
         infowindow.open(map, beachMarker);
       });
     }

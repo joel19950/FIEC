@@ -22,6 +22,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 <!doctype html>
 <html class=no-js>
+
 <head>
   <meta charset=utf-8>
   <meta name=description>
@@ -48,10 +49,8 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
       <div class=header-top>
         <div class=container>
           <div class=row>
-            <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i
-                  class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i
-                  class="fa fa-behance"></i></a> </div>
-           
+            <div class=header-top-left> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-vine"></i></a> <a href=#><i class="fa fa-behance"></i></a> </div>
+
           </div>
         </div>
       </div>
@@ -62,84 +61,85 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
             <div class=header-top-right>
               <nav class=navbar>
                 <div class=nav-wrapper>
-                    <div class=navbar-header> <button type=button class=navbar-toggle> <span
-                                class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
-                            <span class=icon-bar></span> <span class=icon-bar></span> </button> </div>
-                    <div class=overlay></div>
-                    <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
-                        <ul class="nav navbar-nav menu-bar">
-                            <li class=dropdown> <a href=index.php>Accueil</a>
-                              
-                            </li>
-                            <li><a href=aboutus.php class=active>A propos</a></li>
-                            <li><a href=sermons.php>Catalogue</a></li>
-                            <li class=dropdown> <a href=event.php>Actualités</a>
-                            <ul class=submenu> 
-                                <li> <a href=event02.php class=active>Covid19</a></li>
-                            </ul>
-                            </li>
-                            <li class=dropdown><a href=blog.php>Partenaires</a>
-                              <ul class=submenu>
-                                  <li><a href=gallery.php>Devenez partenaire</a></li>
-                              </ul>
-                          </li>
-                            <li><a href=contact_us.php>Contacts</a></li>
-                            <li><a href=store.php>Télécharger</a></li>
-                           
+                  <div class=navbar-header> <button type=button class=navbar-toggle> <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span>
+                      <span class=icon-bar></span> <span class=icon-bar></span> </button> </div>
+                  <div class=overlay></div>
+                  <div class=nav-menu> <a href=# class=close> <i class="fa fa-times"></i> </a>
+                    <ul class="nav navbar-nav menu-bar">
+                      <li class=dropdown> <a href=index.php>Accueil</a>
+
+                      </li>
+                      <li><a href=aboutus.php class=active>A propos</a></li>
+                      <li><a href=sermons.php>Catalogue</a></li>
+                      <li class=dropdown> <a href=gallery.php>Actualités</a>
+                        <ul class=submenu>
+                          <li> <a href=event02.php class=active>Covid19</a></li>
                         </ul>
-                    </div>
+                      </li>
+                      <li class=dropdown><a href=blog.php>Partenaires</a>
+                        <ul class=submenu>
+                          <li><a href=event.php>Devenez partenaire</a></li>
+                        </ul>
+                      </li>
+                      <li><a href=contact_us.php>Contact</a></li>
+                      <!-- <li><a href=store.php>Télécharger</a></li> -->
+
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>
             </div>
           </div>
         </div>
       </div>
       <div class=button-wrapper>
         <div class=container>
-          <div class=row> <a href=# class=btn-content>Catalogues des exposants</a> </div>
-          
-         <div class="row">
-         <?php if($infrastructure_btp){?>
-             <b> Infrastructure et BTP</b>
-          <?php } else if($institutions_et_administration){?>
-            <b> Institutions et administration</b>
-          <?php } else if($logistique_et_transports){?>
-            <b> Logistique et transports</b>
-          <?php } else if($agriculture_et_agroindustrie){?>
-            <b> Agriculture et agroindustrie</b>
-          <?php } else if($art_design_et_metier_manuels){?>
-            <b> Art design et metier manuel</b>
-          <?php } else if($commerce){?>
-            <b> commerce</b>
-          <?php } else if($eau_et_energie){?>
-            <b> Eau et Energie</b>
-          <?php } else if($education_et_formation){?>
-            <b> Education et formation</b>
-          <?php } else if($equipement_et_immobilier){?>
-            <b> Equipement et immobilier</b>
-          <?php } else if($mode_et_habillement){?>
-            <b> Mode et habillement</b>
-          <?php } else if($pavillons_pays){?>
-            <b> Pavillons pays</b>
-          <?php } else if($sante_et_cosmetique){?>
-            <b> Santé et cosmetique</b>
-          <?php } else if($finance_banques_et_assurances){?>
-            <b> Finance banque et assurances</b>
-          <?php } else if($foret_et_bois){?>
-            <b> Foret et bois</b>
-          <?php } else if($industries_et_mines){?>
-            <b> Industries et mines </b>
-          <?php } else if($tic_et_telecommunication){?>
-            <b> Tic et Télécommunication</b>
-          <?php } else if($touristes_et_loisirs){?>
-            Touristes et loisirs
-          <?php } else if($communication_et_media){?>
-            Communication et média
-          <?php }?>
+          <div class=row> <a href=# class=btn-content>Catalogues des exposants fiec <br> Décembre 2021 </a></div>
 
-         </div>
-         
-         
+          <div class="row">
+            <h4>
+              <?php if ($infrastructure_btp) { ?>
+                <b> Infrastructure et BTP</b>
+              <?php } else if ($institutions_et_administration) { ?>
+                <b> Institutions et administration</b>
+              <?php } else if ($logistique_et_transports) { ?>
+                <b> Logistique et transports</b>
+              <?php } else if ($agriculture_et_agroindustrie) { ?>
+                <b> Agriculture et agroindustrie</b>
+              <?php } else if ($art_design_et_metier_manuels) { ?>
+                <b> Art design et metier manuel</b>
+              <?php } else if ($commerce) { ?>
+                <b> commerce</b>
+              <?php } else if ($eau_et_energie) { ?>
+                <b> Eau et Energie</b>
+              <?php } else if ($education_et_formation) { ?>
+                <b> Education et formation</b>
+              <?php } else if ($equipement_et_immobilier) { ?>
+                <b> Equipement et immobilier</b>
+              <?php } else if ($mode_et_habillement) { ?>
+                <b> Mode et habillement</b>
+              <?php } else if ($pavillons_pays) { ?>
+                <b> Pavillons pays</b>
+              <?php } else if ($sante_et_cosmetique) { ?>
+                <b> Santé et cosmetique</b>
+              <?php } else if ($finance_banques_et_assurances) { ?>
+                <b> Finance banque et assurances</b>
+              <?php } else if ($foret_et_bois) { ?>
+                <b> Foret et bois</b>
+              <?php } else if ($industries_et_mines) { ?>
+                <b> Industries et mines </b>
+              <?php } else if ($tic_et_telecommunication) { ?>
+                <b> Tic et Télécommunication</b>
+              <?php } else if ($touristes_et_loisirs) { ?>
+                Touristes et loisirs
+              <?php } else if ($communication_et_media) { ?>
+                Communication et média
+              <?php } ?>
+
+            </h4>
+          </div>
+
+
         </div>
       </div>
     </header>
@@ -148,176 +148,52 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
         <div class=row>
           <div class="wrapper clearfix">
             <aside class=content>
-              
+
               <div class=event_tab>
-               
+
                 <div class="tab-content event_montlydetails">
                   <div role=tabpanel class="event_slide event_list tab-pane active" id=listed_event>
-                    
-
-<?php if($infrastructure_btp){ ?>
 
 
+                    <?php if ($infrastructure_btp) { ?>
 
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
                             </ul>
-                          
+
+                          </div>
                         </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                   
-                     
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php }else if($institutions_et_administration){?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
+                          </div>
                         </div>
+
+
                       </div>
-                    
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-
-
-
-
-<?php } else if($logistique_et_transports){ ?>
 
 
 
@@ -332,237 +208,111 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <?php } else if ($institutions_et_administration) { ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
                             </ul>
-                          
+
+                          </div>
                         </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    
-                   
-                    </div>
 
-<?php } else if($agriculture_et_agroindustrie){ ?>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
+                          </div>
                         </div>
-                      </div>
-                      
-                     
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
 
-
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-<?php } else if($art_design_et_metier_manuels){ ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                    
-                     
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-<?php } else if($commerce){ ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
-                        </div>
-                      </div>
-                   
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
 
-<?php } else if($eau_et_energie){ ?>
+
+
+
+
+
+                    <?php } else if ($logistique_et_transports) { ?>
 
 
 
@@ -576,106 +326,43 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
                             </ul>
-                          
+
+                          </div>
                         </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-    
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
 
-<?php } else if($education_et_formation){ ?>
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
+                          </div>
                         </div>
+
+
                       </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      
-                   
-                    </div>
 
-<?php } else if($equipement_et_immobilier){ ?>
+                    <?php } else if ($agriculture_et_agroindustrie) { ?>
 
 
 
@@ -689,261 +376,63 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
                             </ul>
-                          
+
+                          </div>
                         </div>
-                      </div>
-                     
-                      
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-  
-<?php } else if($mode_et_habillement){ ?>
 
 
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
 
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
+                          </div>
                         </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      
-                    
-                    </div>
 
-<?php } else if($pavillons_pays){ ?>
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
-                        </div>
-                      </div>
-                     
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-<?php } else if($sante_et_cosmetique){ ?>
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                    
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    
-                    </div>
-
-<?php } else if($finance_banques_et_assurances){ ?>
-
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                     
-                    
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
+                          </div>
                         </div>
                       </div>
 
-
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-<?php } else if($foret_et_bois){ ?>
+                    <?php } else if ($art_design_et_metier_manuels) { ?>
 
 
 
@@ -956,250 +445,716 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 
 
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
+                          </div>
                         </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    
-                     
-                    </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
 
-<?php } else if($tic_et_telecommunication){ ?>
-
-
-
-
-
-
-
-
-
-
-  <div class=wrap-list-slider>
-                     
-                     
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-  
-<?php } else if($touristes_et_loisirs){ ?>
-
-
-
-
-
-
-
-
-
-                  <div class=wrap-list-slider>
-                      
-                      
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-
-                     
-                    </div>
-
-<?php } else if($communication_et_media){ ?>
-
-
-
-
-
-  <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
                             </ul>
-                          
-                        </div>
-                      </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      
-                      
-                    </div>
-
-  <?php } else { ?>
+                    <?php } else if ($commerce) { ?>
 
 
 
 
 
-    <div class=wrap-list-slider>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                            
-                         
-                                     <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                        
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
                             </ul>
-                          
+
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="item-holder clearfix">
-                        <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
-                        <div class=item-container>
-                          <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard.</p>
-                          <ul class="wrapper-comment clearfix">
-                          <li><a href="https://www.youtube.com/watch?v=4_SeUHrqA_o&amp;=PL2940264C7D013B15"
-                                            class=zoom title=video><i class="fa fa-play"></i></a></li>
-                                    
-                                    <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp;  <i class="fa fa-file-pdf-o"></i></a></li>
-                          </ul>
+
+                    <?php } else if ($eau_et_energie) { ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                     
-                      
-                    </div>
+
+                    <?php } else if ($education_et_formation) { ?>
 
 
-<?php } ?>
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                    <?php } else if ($equipement_et_immobilier) { ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    <?php } else if ($mode_et_habillement) { ?>
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                    <?php } else if ($pavillons_pays) { ?>
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    <?php } else if ($sante_et_cosmetique) { ?>
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    <?php } else if ($finance_banques_et_assurances) { ?>
+
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    <?php } else if ($foret_et_bois) { ?>
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                    <?php } else if ($tic_et_telecommunication) { ?>
+
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    <?php } else if ($touristes_et_loisirs) { ?>
+
+
+
+
+
+
+
+
+
+                      <div class=wrap-list-slider>
+
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-big-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                    <?php } else if ($communication_et_media) { ?>
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+                    <?php } else { ?>
+
+
+
+
+
+                      <div class=wrap-list-slider>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+
+
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+
+                            </ul>
+
+                          </div>
+                        </div>
+                        <div class="item-holder clearfix">
+                          <div class=item-image> <img src=images/content/jesus-cross-blog2.jpg alt=image> </div>
+                          <div class=item-container>
+                            <h4><a href=# class=headline-lato>Love the God. Because he loves us</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard.</p>
+                            <ul class="wrapper-comment clearfix">
+                              <li><a href="https://www.youtube.com/watch?v=ibewqQvfQk4" class=zoom title=video><i class="fa fa-play"></i></a></li>
+
+                              <li><a href=pdf/own.pdf target=_blank>Cliqué ici pour télécharger &nbsp; <i class="fa fa-file-pdf-o"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                      </div>
+
+
+                    <?php } ?>
 
 
 
@@ -1308,14 +1263,13 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                     <div class=map-container id=map-wrapper> </div>
                     <div class="event_sorting clearfix">
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP1.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP1.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -1325,14 +1279,13 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                         </div>
                       </div>
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP2.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP2.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -1342,14 +1295,13 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                         </div>
                       </div>
                       <div class=figure>
-                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img
-                              src=images/gallery/galleryP3.jpg alt=image> </a>
+                        <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP3.jpg alt=image> </a>
                           <div class=item-content>
                             <h4 class=headline-lato>Water Baptism</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="item-footer clearfix">
                               <div class=footer-content>
-                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021  at 10:00
+                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1, 2021 at 10:00
                                     am </span> </div>
                                 <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State Route H, Saint
                                     Louis, MO, USA </span> </div>
@@ -1365,24 +1317,23 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
             </aside>
             <aside class=sidebar>
               <div class=item-menu>
-                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=#
-                    class=search-btn><i class="fa fa-search"></i></a> </div>
+                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=# class=search-btn><i class="fa fa-search"></i></a> </div>
               </div>
               <div class=item-menu>
                 <div class=item-menu-wrap>
-                  <h5>Event catagories</h5>
+                  <h5>Evénements</h5>
                   <ul class=catagory>
-                    <li><a>children</a></li>
-                    <li><a>classes</a></li>
-                    <li><a>community</a></li>
-                    <li><a>health</a></li>
-                    <li><a>more</a></li>
+                    <li><a>Enfants</a></li>
+                    <li><a>Classes</a></li>
+                    <li><a>Communauté</a></li>
+                    <li><a>Santé</a></li>
+                    <li><a>Plus</a></li>
                   </ul>
                 </div>
               </div>
               <div class=item-menu>
                 <div class=item-menu-wrap>
-                  <h5>Past event</h5>
+                  <h5>Evénement passé</h5>
                   <div class="item-wrap clearfix">
                     <div class=item-fig> <img src=images/footer-img1.jpg alt=image> </div>
                     <div class=item-content>
@@ -1427,57 +1378,65 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
         </div>
       </div>
     </section>
-    <section class="quotation event_quatation">
-      <div class=container>
-        <div class=row>
-          <h5>You don't need religion to have morals. if you can't determine right from wrong then you lack empathy not
-            religion.</h5>
-          <p>- Mahatma Gandhi</p>
-        </div>
-      </div>
-    </section>
+    <section class=quotation>
+            <div class=container>
+                <div class=row>
+                    <h5>Le projet l'association des batisseurs et entrepreneurs chrétiens pour le dévéloppement social, est une initiative de:</h5>
+                    <p>Mr. TAKALA TINGUEU Martial Roméo</p>
+                </div>
+            </div>
+        </section>
     <footer>
       <div class=container>
         <div class=row>
           <div class="row left">
             <div class=why>
               <h4>Edition 1ère</h4>
-              <p>Foire internationale de l'entrepreneuriat chretien</p> 
+              <p>Foire internationale de l'entrepreneuriat chretien</p>
               <p> Esplanade de la maison du parti de Bonanjo</p>
               <a href=contact_us.php class="btn trans-btn">Contact</a>
-          </div>
+            </div>
             <div class=pages>
               <h4>Pages</h4>
               <ul>
-                  <li><a href=index.php>Accueil</a></li>
-                  <li><a href=aboutus.php>A propos</a></li>
-                  <li><a href=sermons.php>Catalogue</a></li>
-                  <li><a href=event.php>Actualités</a></li>
-                  <li><a href=blog.php>Partenaires</a></li>
-                  <li><a href=contact_us.php>Contact</a></li>
+                <li><a href=index.php>Accueil</a></li>
+                <li><a href=aboutus.php>A propos</a></li>
+                <li><a href=sermons.php>Catalogue</a></li>
+                <li><a href=event.php>Actualités</a></li>
+                <li><a href=blog.php>Partenaires</a></li>
+                <li><a href=contact_us.php>Contact</a></li>
               </ul>
-          </div>
+            </div>
           </div>
           <div class="row right">
             <div class=contact>
-              <h4>Contacts</h4>
+              <h4>Contact</h4>
               <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
               <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
             </div>
             <div class=recent>
-              <h4>Recent Catalogue</h4>
-              <div class="figure row">
-                <div> <img src=images/footer-img1.jpg alt=image> </div>
-                <div class=figcaption>
-                  <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
-                  <h5 class=date>April 10, 2021 </h5>
-                  <p>Lorem Ipsum is simply dummy</p>
-                </div>
-              </div>
+            <h4>
+                                ABECDES
+                            </h4>
+                            <div class="figure row">
+                                <div> <a href="abecdes.php">
+                                        <img src=images/logoassociation.png alt=image>
+
+                                    </a> </div>
+                                <div class=figcaption>
+
+                                    <p>
+                                        <a href="abecdes.php">
+                                            <strong> Association des Batisseurs <br> et Entrepreneurs Chretiens pour le Dévéloppement <br> Sociale</strong>
+                                        </a>
+
+                                    </p>
+                                </div>
+                            </div>
               <div class="figure row">
                 <div> <img src=images/footer-img2.jpg height=73 width=83> </div>
                 <div class=figcaption>
-                  <h5 class=heading><a href=#>Jesus is the Ture Vine</a></h5>
+                  <h5 class=heading><a href=#>Jésus est la vigne pure</a></h5>
                   <h5 class=date>April 10, 2021 </h5>
                   <p>Lorem Ipsum is simply dummy</p>
                 </div>
@@ -1485,7 +1444,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
             </div>
           </div>
         </div>
-        <h6>&copy; 2021  FIEC Powered by <a href=fiec.com><span>fiec.com</span></a></h6>
+        <h6>&copy; CopyRight 2021 FIEC Site <a href=www.fiec.cm><span>www.fiec.cm</span></a></h6>
       </div>
     </footer>
   </div>
@@ -1495,6 +1454,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script>
     var map;
+
     function initialize() {
       var mapOptions = {
         zoom: 12,
@@ -1502,18 +1462,30 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
         center: new google.maps.LatLng(37.4538889, -122.1811111),
         panControl: false,
         zoomControl: false,
-        styles: [
-          { 'stylers': [{ 'hue': '#dd0d0d' }, { saturation: -100 }] },
+        styles: [{
+            'stylers': [{
+              'hue': '#dd0d0d'
+            }, {
+              saturation: -100
+            }]
+          },
           {
             'featureType': 'road.arterial',
             'elementType': 'labels',
-            'stylers': [{ 'visibility': 'off' }]
+            'stylers': [{
+              'visibility': 'off'
+            }]
           },
           {
             'featureType': 'poi.business',
             'elementType': 'geometry',
-            'stylers': [{ 'lightness': 100 },
-            { 'visibility': 'simplified' }]
+            'stylers': [{
+                'lightness': 100
+              },
+              {
+                'visibility': 'simplified'
+              }
+            ]
           }
         ]
       };
@@ -1531,7 +1503,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
 
 
       '</div>' +
-        '</div>';
+      '</div>';
 
       map = new google.maps.Map(document.getElementById('map-wrapper'), mapOptions);
       var image = '../images/mapIcon.png';
@@ -1546,7 +1518,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
         content: contentString
       });
 
-      google.maps.event.addListener(beachMarker, 'click', function () {
+      google.maps.event.addListener(beachMarker, 'click', function() {
         infowindow.open(map, beachMarker);
       });
     }
