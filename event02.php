@@ -60,7 +60,7 @@
                         </ul>
                       </li>
                       <li><a href=contact_us.php>Contact</a></li>
-                      <!-- <li><a href=store.php>Télécharger</a></li> -->
+                      
 
                     </ul>
                   </div>
@@ -81,22 +81,9 @@
         <div class=row>
           <div class="wrapper clearfix">
             <aside class=content>
-              <div class=eventFinder>
-                <form class="eventForm clearfix">
-                  <div class=form-group> <input type=text class=form-control placeholder="Event Name"> </div>
-                  <div class="form-group evtdate"> <input type=text class=form-control onfocus="(this.type='date')" placeholder=Date name=date id=date> </div>
-                  <div class="form-group location"> <input type=text class=form-control placeholder=Location name=location id=location> </div>
-                  <div class=form-group-btn> <button type=submit class="btn btn-default">search</button> </div>
-                </form>
-              </div>
+              
               <div class=event_tab>
-                <!-- <h4>upcoming event march , 2021 </h4>
-                <ul class="tab_Actualitésection clearfix">
-                  <li class=active><a href=#listed_event><i class="fa fa-list-ul"></i> <span>list</span></a></li>
-                  <li><a href=#montly_event><i class="fa fa-calendar"></i> <span>month</span></a></li>
-                  <li><a href=#perdays_event><i class="fa fa-calendar"></i> <span>day</span></a></li>
-                  <li><a href=#mapping_event><i class="fa fa-map-marker"></i> <span>map</span></a></li>
-                </ul> -->
+               
                 <div class="tab-content event_montlydetails">
                   <div role=tabpanel class="event_slide event_list tab-pane active" id=listed_event>
                     <div class=wrap-list-slider>
@@ -357,10 +344,7 @@
               </div>
             </aside>
             <aside class=sidebar>
-              <div class=item-menu>
-                <div class=search_box> <input type=text placeholder=search class=searchinput> <a href=# class=search-btn><i class="fa fa-search"></i></a> </div>
-              </div>
-              <div class=item-menu>
+               <div class=item-menu>
                 <div class=item-menu-wrap>
                   <h5>Evénements</h5>
                   <ul class=catagory>
@@ -372,32 +356,7 @@
                   </ul>
                 </div>
               </div>
-              <div class=item-menu>
-                <div class=item-menu-wrap>
-                  <h5>Evénement passé</h5>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/footer-img1.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/footer-img2.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/content3.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
               <div class=item-menu>
                 <div class=item-menu-wrap>
                   <h5>photo</h5>
@@ -419,15 +378,14 @@
         </div>
       </div>
     </section>
-    <section class="quotation event_quatation">
-      <div class=container>
-        <div class=row>
-          <h5>You don't need religion to have morals. if you can't determine right from wrong then you lack empathy not
-            religion.</h5>
-          <p>- Mahatma Gandhi</p>
-        </div>
-      </div>
-    </section>
+    <section class=quotation>
+            <div class=container>
+                <div class=row>
+                    <h5>Le projet l'association des batisseurs et entrepreneurs chrétiens pour le dévéloppement social, est une initiative de:</h5>
+                    <p>Mr. TAKALA TINGUEU Martial Roméo</p>
+                </div>
+            </div>
+        </section>
     <footer>
       <div class=container>
         <div class=row>

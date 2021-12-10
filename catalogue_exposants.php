@@ -82,7 +82,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                         </ul>
                       </li>
                       <li><a href=contact_us.php>Contact</a></li>
-                      <!-- <li><a href=store.php>Télécharger</a></li> -->
+                      
 
                     </ul>
                   </div>
@@ -1331,32 +1331,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                   </ul>
                 </div>
               </div>
-              <div class=item-menu>
-                <div class=item-menu-wrap>
-                  <h5>Evénement passé</h5>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/footer-img1.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/footer-img2.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                  <div class="item-wrap clearfix">
-                    <div class=item-fig> <img src=images/content3.jpg alt=image> </div>
-                    <div class=item-content>
-                      <h6><a href=#>Pastor's Bible Study</a></h6>
-                      <p>April 10, 2021 </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div class=item-menu>
                 <div class=item-menu-wrap>
                   <h5>photo</h5>

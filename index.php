@@ -67,7 +67,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href=contact_us.php>Contact</a></li>
-                                            <!-- <li><a href=store.php>Télécharger</a></li> -->
+                                            
 
                                         </ul>
                                     </div>
