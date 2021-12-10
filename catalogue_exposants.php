@@ -82,7 +82,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                         </ul>
                       </li>
                       <li><a href=contact_us.php>Contact</a></li>
-                      
+
 
                     </ul>
                   </div>
@@ -1331,7 +1331,7 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
                   </ul>
                 </div>
               </div>
-              
+
               <div class=item-menu>
                 <div class=item-menu-wrap>
                   <h5>photo</h5>
@@ -1354,13 +1354,13 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
       </div>
     </section>
     <section class=quotation>
-            <div class=container>
-                <div class=row>
-                    <h5>Le projet l'association des batisseurs et entrepreneurs chrétiens pour le dévéloppement social, est une initiative de:</h5>
-                    <p>Mr. TAKALA TINGUEU Martial Roméo</p>
-                </div>
-            </div>
-        </section>
+      <div class=container>
+        <div class=row>
+          <h5>Le projet l'association des batisseurs et entrepreneurs chrétiens pour le dévéloppement social, est une initiative de:</h5>
+          <p>Mr. TAKALA TINGUEU Martial Roméo</p>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class=container>
         <div class=row>
@@ -1390,24 +1390,24 @@ $communication_et_media = isset($_GET["communication_et_media"]) ? $_GET["commun
               <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
             </div>
             <div class=recent>
-            <h4>
-                                ABECDES
-                            </h4>
-                            <div class="figure row">
-                                <div> <a href="abecdes.php">
-                                        <img src=images/logoassociation.png alt=image>
+              <h4>
+                ABECDES
+              </h4>
+              <div class="figure row">
+                <div> <a href="abecdes.php">
+                    <img src=images/logoassociation.png alt=image>
 
-                                    </a> </div>
-                                <div class=figcaption>
+                  </a> </div>
+                <div class=figcaption>
 
-                                    <p>
-                                        <a href="abecdes.php">
-                                            <strong> Association des Batisseurs <br> et Entrepreneurs Chretiens pour le Dévéloppement <br> Sociale</strong>
-                                        </a>
+                  <p>
+                    <a href="abecdes.php">
+                      <strong> Association des Batisseurs <br> et Entrepreneurs Chretiens pour le Dévéloppement <br> Sociale</strong>
+                    </a>
 
-                                    </p>
-                                </div>
-                            </div>
+                  </p>
+                </div>
+              </div>
               <div class="figure row">
                 <div> <img src=images/footer-img2.jpg height=73 width=83> </div>
                 <div class=figcaption>

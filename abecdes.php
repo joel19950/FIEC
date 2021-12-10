@@ -60,7 +60,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href=contact_us.php>Contact</a></li>
-                                            
+
 
                                         </ul>
                                     </div>
@@ -143,23 +143,23 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+
                             <div class=item-menu>
-                <div class=item-menu-wrap>
-                  <h5>photo</h5>
-                  <ul class="item-photo clearfix">
-                    <li><a><img src=images/photo/footer-img2.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/footer-img1.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/jesus.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/jesus1.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/content3.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/jesus2.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/jesus3.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/jesus.jpg alt=image></a></li>
-                    <li><a><img src=images/photo/footer-img2.jpg alt=image></a></li>
-                  </ul>
-                </div>
-              </div>
+                                <div class=item-menu-wrap>
+                                    <h5>photo</h5>
+                                    <ul class="item-photo clearfix">
+                                        <li><a><img src=images/photo/footer-img2.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/footer-img1.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/jesus.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/jesus1.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/content3.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/jesus2.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/jesus3.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/jesus.jpg alt=image></a></li>
+                                        <li><a><img src=images/photo/footer-img2.jpg alt=image></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </aside>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>
                         <div class=recent>
-                        <h4>
+                            <h4>
                                 ABECDES
                             </h4>
                             <div class="figure row">

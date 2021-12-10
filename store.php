@@ -213,7 +213,7 @@
                                     </ul>
                                 </div>
                             </div>
-                          
+
                             <div class=item-menu>
                                 <div class=item-menu-wrap>
                                     <h5>photo</h5>
@@ -264,7 +264,7 @@
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>
                         <div class=recent>
-                        <h4>
+                            <h4>
                                 ABECDES
                             </h4>
                             <div class="figure row">
