@@ -1,3 +1,13 @@
+<?php
+$sante = isset($_GET["sante"]) ? $_GET["sante"] : '';
+$comunication = isset($_GET["comunication"]) ? $_GET["comunication"] : '';
+$immobilier = isset($_GET["immobilier"]) ? $_GET["immobilier"] : '';
+$infrastructure = isset($_GET["infrastructure"]) ? $_GET["infrastructure"] : '';
+$institution = isset($_GET["institution"]) ? $_GET["institution"] : '';
+$logistique = isset($_GET["logistique"]) ? $_GET["logistique"] : '';
+$media = isset($_GET["media"]) ? $_GET["media"] : '';
+?>
+
 <!doctype html>
 <html class=no-js>
 
@@ -23,6 +33,23 @@
         </div>
     </div>
     <div class=wrapper-body>
+        <div class=overlay-event>
+            <div class="modal-event clearfix">
+                <h1 class=logo> <a href=index.php> <img src=images/logo.png alt=image-logo> </a> <a class=close-event><i class="fa fa-close"></i></a> </h1>
+                <h3>Infos partenaire</h3>
+                <p class=paragraph_opensans>L ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+                <form>
+                    <div class=form-group> <input type=text class="form-control text" placeholder="Prénom (requis)"> </div>
+                    <div class=form-group> <input type=text class="form-control text" placeholder="Nom (requis)"> </div>
+                    <div class=form-group> <input type=number minlength="9" class="form-control text" placeholder="Téléphone (requis)"> </div>
+                    <div class=form-group> <input type=email class="form-control text" placeholder="Email (requis)">
+                    </div>
+                    <div class=form-group><input type=text class="form-control text" placeholder="Organisation (requis)"> </div>
+                    <div class=button-register> <button type=submit class=submit>Enregistrer</button> </div>
+                </form>
+            </div>
+        </div>
         <header class=s-header>
             <div class=header-top>
                 <div class=container>
@@ -82,7 +109,24 @@
                     <div class="wrapper clearfix">
                         <aside class=content>
                             <div class=event-details-wrap>
-                                <div class=event-img> <img src=images/event1.jpg alt=image> </div>
+                                <div class=event-img>
+                                <?php if ($sante) { ?>
+                                        <img src="images/<?php echo $sante; ?>  " alt=image width="850px"  height="220px">
+                                    <?php   } if ($comunication) { ?>
+                                        <img src="images/<?php echo $comunication; ?>  " alt=image width="850px" height="220px">
+                                    <?php   } if ($immobilier) { ?>
+                                        <img src="images/<?php echo $immobilier; ?>  " alt=image width="850px" height="220px">
+                                    <?php   } if ($infrastructure) { ?>
+                                        <img src="images/<?php echo $infrastructure; ?>  " alt=image width="850px" height="220px">
+                                    <?php   } if ($institution) { ?>
+                                        <img src="images/<?php echo $institution; ?>  " alt=image width="850px" height="220px">
+                                    <?php   } if ($logistique) { ?>
+                                        <img src="images/<?php echo $logistique; ?>  " alt=image width="850px" height="220px">
+                                    <?php   } if ($media) { ?>
+                                        <img src="images/<?php echo $media; ?>  " alt=image width="850px" height="220px">
+                                <?php   }  ?>
+
+                                </div>
                                 <div class="event-content clearfix">
                                     <div class="item-cnt clearfix"> <i class="fa fa-microphone"></i> <span>by Pastor
                                             Joel Osteen</span> </div>
@@ -102,13 +146,16 @@
                                     more recently with desktop publishing software like Aldus PageMaker including
                                     versions of Lorem Ipsum.</p>
                             </div>
+                            <div class=footer-button>
+                                <P class=paragraph_opensans> Pour devenir partenaire cliqué ici <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </P>
+                            </div>
                         </aside>
                         <aside class=sidebar>
                             <div class=item-menu>
                                 <div class=item-menu-wrap>
                                     <h5>Evénements</h5>
                                     <ul class=catagory>
-                                        <li><a>Enfants</a></li>
+
                                         <li><a>Classes</a></li>
                                         <li><a>Communauté</a></li>
                                         <li><a>Santé</a></li>
@@ -162,7 +209,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>

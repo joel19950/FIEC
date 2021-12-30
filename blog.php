@@ -76,23 +76,24 @@
                     <div class=row> <a href=# class=btn-content>Nos partenaires</a> </div>
                 </div>
                 <div style="height: 75px;"> </div>
-                <figure class="gallery">
-                    <ul class="gallery-wrapper clearfix" jusi>
-                        <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                        <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image><span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                    </ul>
-                </figure>
+              
+        <figure class="gallery">
+            <ul class="gallery-wrapper clearfix">
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt="GTA"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt="ministère des Arts et de la Culture"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt="Emmis Empire"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt="WAO group"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt="GBN RADIO"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery6.png class=zoom> <img src=images/gallery/gallery6.png height="100px" width="100px" alt="MINSANTE"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt="GTA"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt="ministère des Arts et de la Culture"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt="Emmis Empire"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt="WAO group"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt="GBN RADIO"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery6.png class=zoom> <img src=images/gallery/gallery6.png height="100px" width="100px" alt="MINSANTE"> </a> </li>
+
+            </ul>
+        </figure>
 
 
             </div>
@@ -140,14 +141,7 @@
 
 
                                     </p>
-                                    <!-- 
-                                    <ul class=wrapper-comment>
-                                        <li> <a href=#><i class="fa fa-pencil-square-o"></i><span>by john deo</span></a>
-                                        </li>
-                                        <li> <a href=#><i class="fa fa-comment-o"></i><span>34 comment</span></a> </li>
-                                        <li> <a href=#><i class="fa fa-tags"></i><span>graphics design and
-                                                    webdesign</span></a> </li>
-                                    </ul> -->
+
                                 </div>
                             </div>
 
@@ -157,7 +151,7 @@
                                 <div class=item-menu-wrap>
                                     <h5>Evénements</h5>
                                     <ul class=catagory>
-                                        <li><a>Enfants</a></li>
+
                                         <li><a>Classes</a></li>
                                         <li><a>Communauté</a></li>
                                         <li><a>Santé</a></li>
@@ -194,7 +188,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>

@@ -159,118 +159,6 @@
             </div>
         </section>
 
-
-        <!-- <section class=about>
-            <div class=container>
-                <div class=line-heading>
-                    <h3>Qui sommes nous?</h3>
-                </div>
-                <div class=row>
-                    <div>
-                        <div class=figure>
-                            <div class="figcaption clearfix">
-                                <div class=item> <img src=images/about/item1.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4 class=headline-lato>What we do?</h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form, by injected humour, or randomised words
-                                        which don't look even slightly believable.</p> <a href=# class=red-readmore>read
-                                        more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=figure>
-                            <div class="figcaption clearfix">
-                                <div class=item> <img src=images/about/item2.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4 class=headline-lato>Our moto</h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form, by injected humour, or randomised words
-                                        which don't look even slightly believable.</p> <a href=# class=red-readmore>read
-                                        more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=figure>
-                            <div class="figcaption clearfix">
-                                <div class=item> <img src=images/about/item3.jpg alt=image> </div>
-                                <div class=item-container>
-                                    <h4 class=headline-lato>Our history</h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form, by injected humour, or randomised words
-                                        which don't look even slightly believable.</p> <a href=# class=red-readmore>read
-                                        more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
-
-
-
-
-
-
-
-        <!-- <section class=sermons>
-            <div class=container>
-                <div class=line-heading>
-                    <h3>QUOI DE NEUF ?</h3>
-                </div>
-                <div class=row>
-                    <div class=figure-wrapper>
-                        <div class="figure clearfix">
-                            <div class=item-figure>
-                                <div class=image-wrapper> <img src=images/content/fig1.jpg alt=image> </div>
-                            </div>
-                            <div class=item-content>
-                                <h4><a href=# class=headline-lato>Dramatically visualize customer</a></h4> <span>05 Oct,
-                                    2021 </span> <span>By: Admin</span>
-                                <p>There are many variations of passages of Lorem Ipsum available.</p>
-                            </div>
-                        </div>
-                        <div class="figure clearfix">
-                            <div class=item-figure>
-                                <div class=image-wrapper> <img src=images/content/fig2.jpg alt=image> </div>
-                            </div>
-                            <div class=item-content>
-                                <h4><a href=# class=headline-lato>Sed ut perspiciatis unde omnis iste</a></h4> <span>05
-                                    Oct, 2021 </span> <span>By: Admin</span>
-                                <p>There are many variations of passages of Lorem Ipsum available.</p>
-                            </div>
-                        </div>
-                        <div class="figure clearfix">
-                            <div class=item-figure>
-                                <div class=image-wrapper> <img src=images/content/fig3.jpg alt=image> </div>
-                            </div>
-                            <div class=item-content>
-                                <h4><a href=# class=headline-lato>Sed ut perspiciatis unde omnis iste</a></h4> <span>05
-                                    Oct, 2021 </span> <span>By: Admin</span>
-                                <p>There are many variations of passages of Lorem Ipsum available.</p>
-                            </div>
-                        </div>
-                        <div class="figure clearfix">
-                            <div class=item-figure>
-                                <div class=image-wrapper> <img src=images/content/fig4.jpg alt=image> </div>
-                            </div>
-                            <div class=item-content>
-                                <h4><a href=# class=headline-lato>Dramatically visualize customer</a></h4> <span>05 Oct,
-                                    2021 </span> <span>By: Admin</span>
-                                <p>There are many variations of passages of Lorem Ipsum available.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
         <section class=upcoming-event>
             <div class=container>
                 <div class=line-heading>
@@ -414,23 +302,21 @@
 
 
 
-        <figure class=gallery>
-            <ul class="gallery-wrapper clearfix ">
-                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt=image> <span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
-                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt=image><span class=h-effect> <img src=images/jesus.jpg class=item-container alt=image> </span> </a> </li>
+        <figure class="gallery">
+            <ul class="gallery-wrapper clearfix">
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt="GTA"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt="ministère des Arts et de la Culture"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt="Emmis Empire"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt="WAO group"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt="GBN RADIO"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery6.png class=zoom> <img src=images/gallery/gallery6.png height="100px" width="100px" alt="MINSANTE"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery1.png class=zoom> <img src=images/gallery/gallery1.png height="100px" width="100px" alt="GTA"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery2.png class=zoom> <img src=images/gallery/gallery2.png height="100px" width="100px" alt="ministère des Arts et de la Culture"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery3.png class=zoom> <img src=images/gallery/gallery3.png height="100px" width="100px" alt="Emmis Empire"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery4.png class=zoom> <img src=images/gallery/gallery4.png height="100px" width="100px" alt="WAO group"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery5.png class=zoom> <img src=images/gallery/gallery5.png height="100px" width="100px" alt="GBN RADIO"> </a> </li>
+                <li class=items> <a href=images/gallery/gallery6.png class=zoom> <img src=images/gallery/gallery6.png height="100px" width="100px" alt="MINSANTE"> </a> </li>
+
             </ul>
         </figure>
 
@@ -463,7 +349,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>
@@ -505,6 +391,7 @@
     <script src=scripts/vendor.js></script>
     <script src=scripts/plugins.js></script>
     <script src=scripts/main.js></script>
+
 </body>
 
 </html>

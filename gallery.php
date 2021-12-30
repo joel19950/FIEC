@@ -226,7 +226,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>

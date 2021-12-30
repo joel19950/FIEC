@@ -1,3 +1,6 @@
+
+
+
 <!doctype html>
 <html class=no-js>
 
@@ -36,7 +39,7 @@
                     <div class=form-group> <input type=email class="form-control text" placeholder="Email (requis)">
                     </div>
                     <div class=form-group><input type=text class="form-control text" placeholder="Organisation (requis)"> </div>
-                    <div class=button-register> <button type=submit class=submit>Enregistrer</button> </div>
+
                 </form>
             </div>
         </div>
@@ -106,146 +109,82 @@
                     <div class="wrapper isp-wrap">
                         <div class=clearfix id=list-item>
                             <div class="figure Fests">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP1.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?media=<?php echo 'media.jpg'; ?>"> <img src=images/media.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Média</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Fests">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP2.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?comunication=<?php echo 'comunication.jpg'; ?>"> <img src=images/comunication.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Communication</h4>
                                         <p>L Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Celebrations">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP3.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?sante=<?php echo 'sante.jpg'; ?>"> <img src=images/sante.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Sécurité</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Meetings">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP1.jpg alt=image> </a>
+                                 <div class="item clearfix"> <a class=item-img href="event_details.php?sante=<?php echo 'sante.jpg'; ?>" > <img src=images/sante.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Sanitaire</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Prayers">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP2.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?logistique=<?php echo 'logistique.jpg'; ?>"> <img src=images/logistique.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Logistique</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Celebrations">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP3.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?immobilier=<?php echo 'immobilier.jpg'; ?>"> <img src=images/immobilier.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Immobilier</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Meetings">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP1.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?infrastructure=<?php echo 'infrastructure.jpg'; ?>"> <img src=images/infrastructure.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Infrastructure</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div class="figure Prayers">
-                                <div class="item clearfix"> <a class=item-img href=event_details.php> <img src=images/gallery/galleryP2.jpg alt=image> </a>
+                                <div class="item clearfix"> <a class=item-img href="event_details.php?institution=<?php echo 'institution.jpg'; ?>"> <img src=images/institution.jpg alt=image> </a>
                                     <div class=item-content>
                                         <h4 class=headline-lato>Partenaire Instutionnelle</h4>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
-                                        <div class="item-footer clearfix">
-                                            <div class=footer-content>
-                                                <div class="wrap clearfix"> <i class="fa fa-clock-o"></i> <span>April 1,
-                                                        2021 at 10:00 am </span> </div>
-                                                <div class="wrap clearfix"> <i class="fa fa-map-marker"></i> <span>State
-                                                        Route H, Saint Louis, MO, USA </span> </div>
-                                            </div>
-                                            <div class=footer-button> <a class="btn-middle btn-lightGrey open-register">Enregistrer</a> </div>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -287,7 +226,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>

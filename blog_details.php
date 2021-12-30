@@ -113,27 +113,14 @@
                                 <div class="social-wraps clearfix"> <a><i class="fa fa-dribbble"></i></a> <a><i class="fa fa-facebook"></i></a> <a><i class="fa fa-twitter"></i></a> <a><i class="fa fa-behance"></i></a> <a><i class="fa fa-vine"></i></a> </div>
                                 <div> </div>
                             </div>
-                            <!-- <div class="contact-form clearfix">
-                                <h6>leave a comment</h6>
-                                <form>
-                                    <div class=form-group> <input type=email class="form-control text"
-                                            placeholder="your name"> </div>
-                                    <div class=form-group> <input type=email class="form-control text"
-                                            id=exampleInputEmail1 placeholder="Your E-mail"> </div>
-                                    <div class=form-group> <input type=email class="form-control text"
-                                            placeholder="your name"> </div>
-                                    <div class=form-group1> <textarea class="form-control texta" id=comment
-                                            placeholder=Message></textarea> </div> <button class=send>post
-                                        comment</button>
-                                </form>
-                            </div> -->
+
                         </aside>
                         <aside class=sidebar>
                             <div class=item-menu>
                                 <div class=item-menu-wrap>
                                     <h5>Evénements</h5>
                                     <ul class=catagory>
-                                        <li><a>Enfants</a></li>
+
                                         <li><a>Classes</a></li>
                                         <li><a>Communauté</a></li>
                                         <li><a>Santé</a></li>
@@ -187,7 +174,7 @@
                     </div>
                     <div class="row right">
                         <div class=contact>
-                            <h4>Contact</h4>
+                            <h4>Contact infos</h4>
                             <p>Espalanade de la maison,<br>du parti de Bonanjo,<br>Douala - Cameroun</p>
                             <p>Téléphone: +237 675 40 72 40<br>Mail: fiec237@yahoo.com</p>
                         </div>
